@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+            <link rel="stylesheet" href="normalize.css">
+            <link rel="stylesheet" href="style.css">
+           <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <form action="http://employeeloginv1.us-e2.cloudhub.io/submit" method="POST">
+            <h1>Eidiko Employee Login</h1>
+            <fieldset>
+	   <label for="empid">Employee Id: </label>
+            <input type="text" name="empid" required autof ocus placeholder="Enter your Employee Id">
+           
+ <label for="fname">First Name: </label>
+            <input type="text" name="fname" required autof ocus placeholder="Enter your first name">
+
+	    <label for="lname">Last Name: </label>
+            <input type="text" name="lname" required autofocus placeholder="Enter your last name">
+
+	    <label for="email">Email Id: </label>
+            <input type="email" name="email" required autofocus placeholder="Enter your email id">
+
+            <label for="Phone">Phone Number: </label>
+            <input type="tel" name="Number" id="phone" required placeholder="Enter your Phone Number">
+              
+            </fieldset>
+            <button type="submit">Login</button>
+	</form>
+    </body>
+</html>    
